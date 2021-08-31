@@ -6,9 +6,9 @@
 
 ### Contact information
 
-Phone: +375291507953
-E-mail: cheferin1@gmail.com
-Linkedin: [Linkedin profile](https://www.linkedin.com/in/artem-romanovsky-9b257a185/)
+Phone: +375291507953\
+E-mail: cheferin1@gmail.com\
+Linkedin: [Linkedin profile](https://www.linkedin.com/in/artem-romanovsky-9b257a185/)\
 GitHub: [GitHub Profile](https://github.com/ArtemRomanovsky)
 
 ***
@@ -20,17 +20,25 @@ I'm currently working as a support/customer success manager.\
 I started entering the world of FE and tech two years ago, thanks to my previous company - Akveo.\
 Literally, can't add anything except skills and interests:
 
-#### Interests: electro dance, family, swimming
-#### Skills: English B2-C1, communication, resolving conflict situations, team player
+### Interests: 
+* electro dance
+* family
+* swimming
 
 ***
 
 ### Skills:
 
-* HTML5, CSS, JS, Git, GitHub, Codepen, VSCode
-* English B2-C1
-* #### Tools:
-* HubSpot, Crisp, Stripe, UI Bakery, Shopify, Slack, Discord, Google Meet, GitBook
+* HTML5
+* CSS
+* JS
+* Git
+* GitHub
+* Codepen
+* VSCode
+
+### Tools:
+Familiar with Hubspot, Shopify, GitHub, VSC, MS Office, Google Sheets (Docs), Notion, Confluence, Slack,\ YouTrack, Git, Crisp, Hotjar, Amplitude, Sentry, Discord.
 
 ***
 
