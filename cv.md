@@ -44,13 +44,13 @@ Familiar with Hubspot, Shopify, GitHub, VSC, MS Office, Google Sheets (Docs), No
 
 ### Code Example: 
 
-Given a sorted array of distinct integers, write a function indexEqualsValue that returns the lowest index\ for which array[index] == index.\
-Return -1 if there is no such index.\
+Given a sorted array of distinct integers, write a function indexEqualsValue that returns the lowest index\ for which array[index] == index.
+Return -1 if there is no such index.
 
-Your algorithm should be very performant.\
+Your algorithm should be very performant.
 
-[input] array of integers ( with 0-based nonnegative indexing )\
-[output] integer\
+[input] array of integers ( with 0-based nonnegative indexing )
+[output] integer
 
 ```
 function indexEqualsValue(a) {
@@ -72,15 +72,15 @@ function indexEqualsValue(a) {
 ```
 ### Education:
 
-* BSU, economics faculty, 2009 - 2014, bachelor's degree\
-* BSU, GIUST faculty, 2014 - 2016, master's degree\
-* BSU, economics faculty, 2016 - 2019 (incomplete), PHD\
+* BSU, economics faculty, 2009 - 2014, bachelor's degree
+* BSU, GIUST faculty, 2014 - 2016, master's degree
+* BSU, economics faculty, 2016 - 2019 (incomplete), PHD
 The theme of my dissertation was human capital, [you can read my article here](https://www.linkedin.com/in/artem-romanovsky-9b257a185/detail/treasury/education:596307254/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAACuwTBYBu6bwl5NkAo25JOrfvFeOmbIZAjM%2C1559031026544)&section=education%3A596307254&treasuryCount=1).
 
 ### Languages:
 
-* English: B2-C1\
-* Russian: Native\
+* English: B2-C1
+* Russian: Native
 * Polish: A1
 
 
