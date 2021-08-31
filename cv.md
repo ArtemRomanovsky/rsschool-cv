@@ -21,7 +21,7 @@ I started entering the world of FE and tech two years ago, thanks to my previous
 Literally, can't add anything except skills and interests:
 
 ### Interests: 
-* [electro dance](https://rolling-scopes-school.github.io/artemromanovsky-JSFEPRESCHOOL/video-player/)
+* [electro dance](https://www.youtube.com/watch?v=y-kNuELiko4&list=PLtmFxzYIogURViaGNRznzQ1FV6DEdbGwO)
 * family
 * swimming
 
