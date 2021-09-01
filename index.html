@@ -22,6 +22,30 @@
     </header>
     <content>
         <div class="content-left">
+            <div class="contact-information"><h3>Contact information</h3></div>
+            <h3>General information</h3>
+            <h3>Skills</h3>
+            <h3>Tools</h3>
+            <div class="content-bottom">
+                <h3>Code example</h3>
+                <xmp>
+                    function indexEqualsValue(a) {
+                    let left = 0;
+                    let right = a.length - 1;
+                    let mid;
+                    while (left != right) {
+                    mid = Math.floor(((right - left) / 2) + left);
+        
+                    if (mid <= a[mid]) {
+                         right=mid;
+                         } else {
+                              left=mid + 1; 
+                            } 
+                        } 
+                        return left==a[left] ? left : -1 
+                    } 
+                </xmp>
+            </div>
         </div>
         <div class="content-right">
             <div class="contacts">
@@ -60,15 +84,15 @@
             <div class="tools">
                 <h3>Tools</h3>
                 <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>JS</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
+                    <li>Familiar with Hubspot, Shopify, GitHub, VSC, MS Office, Google Sheets (Docs), Notion,
+                        Confluence, Slack, YouTrack, Git, Crisp, Hotjar, Amplitude, Sentry, Discord.
+                    </li>
                 </ul>
             </div>
         </div>
+
     </content>
+    
     <footer></footer>
 
 </body>
