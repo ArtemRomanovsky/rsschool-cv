@@ -9,7 +9,7 @@ body {
     margin: 0px;
     background-color: #101426;
     font-family: open-sans, sans-serif;
-    color: #FFAA00;
+    color: #8F9BB3;
     
 }
 
@@ -22,10 +22,10 @@ body {
 }
 
 .avatar {
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
-    border: solid sandybrown 10 px;
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    border: 10px outset #FFAA00;
     background-repeat: no-repeat;
     background-size: contain;
     object-fit: cover;
@@ -34,10 +34,33 @@ body {
 }
 
 .personal-info {
-    padding-left: 12%;
+    padding-left: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.
-.contacts {
+content {
+    display: flex;
+    padding-top: 6%;
+    padding-right: 2%;
+}
 
+.content-left {
+    width: 40%;
+}
+
+.content-right {
+    width: 60%;
+    padding-left: 4%;
+}
+
+.contacts {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+
+}
+
+.phone, .email {
+    margin-right: 8%;
 }
