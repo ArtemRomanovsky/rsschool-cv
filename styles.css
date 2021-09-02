@@ -28,7 +28,7 @@ span {
     width: 250px;
     height: 250px;
     border-radius: 250px;
-    border: 10px solid ;
+    border: 10px solid;
     background-repeat: no-repeat;
     background-size: contain;
     object-fit: cover;
@@ -116,8 +116,35 @@ content {
 .code-left {
     display: flex;
     justify-content: flex-end;
+    height: 380px;
 }
 
 .code-right {
     padding-top: 16px;
+}
+
+.languages-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.footer-link {
+    width: 80px;
+    height: 30px;
+}
+
+.rsschool {
+    background: url(./pics/rs_school_js.svg) no-repeat;
+    object-fit: contain;
+}
+
+.linkedin {
+    background: url(./pics/linkedin-download.svg) no-repeat;
+    object-fit: contain;
 }
