@@ -129,16 +129,14 @@ content {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    height: auto;
-    padding-bottom: 24px;
+    padding-top: 32px;
+    
 }
 
 .footer-link {
     width: 80px;
     height: 40px;
-    
+    margin-right: 16px;
 }
 
 .rsschool {
@@ -147,10 +145,21 @@ footer {
 
 .linkedin {
     background: url(./pics/linkedin.svg) no-repeat;
-    object-fit: cover;
-    margin-right: 16px;
 }
 
 .github {
     background: url(./pics/GitHub-Logo.wine\ .svg) no-repeat;
+}
+
+.block-links-footer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 24px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
