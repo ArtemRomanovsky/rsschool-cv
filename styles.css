@@ -95,14 +95,14 @@ content {
 }
 
 .skills-left {
-    height: 120px;
+    height: 106px;
     display: flex;
     justify-content: flex-end;
     padding-top: 36px;
 }
 
 .tools-left {
-    height: 60px;
+    height: 100px;
     display: flex;
     justify-content: flex-end;
     padding-top: 22px;
@@ -110,7 +110,7 @@ content {
 
 .tools-right {
     padding-top: 12px;
-    height: 60px;
+    height: 100px;
 }
 
 .code-left {
@@ -130,25 +130,27 @@ content {
 
 footer {
     padding-top: 32px;
-    
 }
 
 .footer-link {
     width: 80px;
-    height: 40px;
-    margin-right: 16px;
+    height: 50px;
+    margin-right: 8px;
 }
 
 .rsschool {
-    background: url(./pics/rs_school_js.svg) no-repeat;
+    background: url(./pics/download.svg) no-repeat;
+    background-size: contain;
 }
 
 .linkedin {
-    background: url(./pics/linkedin.svg) no-repeat;
+    background: url(./pics/linkedinNew.svg) no-repeat;
+    background-size: contain;
 }
 
 .github {
-    background: url(./pics/GitHub-Logo.wine\ .svg) no-repeat;
+    background: url(./pics/github-icon.svg) no-repeat;
+    background-size: contain;
 }
 
 .block-links-footer {
@@ -156,10 +158,20 @@ footer {
     justify-content: center;
     height: auto;
     padding-bottom: 24px;
+    align-items: center;
 }
 
 .copyright {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.par-about-me {
+    margin: 0;
+}
+
+ul {
+    padding: 12px;
+    margin-top: 8px;
 }
