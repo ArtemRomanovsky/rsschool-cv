@@ -98,7 +98,7 @@ main {
     height: 106px;
     display: flex;
     justify-content: flex-end;
-    padding-top: 36px;
+    padding-top: 16px;
 }
 
 .tools-left {
@@ -218,7 +218,7 @@ input[type=range] {
 }
 
 input[type=range]::-webkit-slider-runnable-track {
-    height: 2px;
+    height: 12px;
     cursor: pointer;
     background: #0a89f8;
     border-radius: 1.3px;
@@ -226,8 +226,8 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 
 input[type=range]::-webkit-slider-thumb {
-    height: 4px;
-    width: 4px;
+    height: 12px;
+    width: 12px;
     border-radius: 30px;
     cursor: pointer;
     -webkit-appearance: none;
@@ -249,4 +249,10 @@ input[type=range]::-webkit-slider-thumb {
 
 .MyClass body {
     padding: 0%;
+}
+
+@media (max-width:1024px) {
+    body {
+        background-color: red;
+    }
 }
