@@ -27,7 +27,7 @@ span {
 .avatar {
     width: 250px;
     height: 250px;
-    border-radius: 250px;
+    border-radius: 50%;
     border: 10px solid;
     background-repeat: no-repeat;
     background-size: contain;
@@ -46,7 +46,7 @@ span {
     height: 56px;
 }
 
-content {
+main {
     display: flex;
     padding-top: 6%;
     padding-right: 2%;
@@ -54,7 +54,6 @@ content {
 
 .content-left {
     width: 40%;
-    background-color: #101421;
     padding-left: 4%;
 }
 
