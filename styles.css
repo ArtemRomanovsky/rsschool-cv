@@ -176,28 +176,25 @@ ul {
 }
 
 #video_itself {
-    max-width: 800px;
+    max-width: 1920px;
     height: auto;
 }
 
 .video_controls {
-    max-width: 800px;
+    max-width: 1920px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    height: 10px;
     padding-left: 4px;
     padding-right: 4px;
-    height: 14px;
+    height: 24px;
 }
 
 button {
     max-width: 30px;
-    /* height: 8px; */
     border: none;
     padding: 0;
-    /* padding-right: 8px; */
     display: flex;
     background: none;
     justify-content: center;
@@ -205,14 +202,14 @@ button {
     color: #0a89f8;
     text-align: center;
     line-height: 1;
-    font-size: 12px;
+    font-size: 24px;
 }
 
 .video_player {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    max-width: 750px;
+    max-width: 1920px;
 }
 
 input[type=range] {
