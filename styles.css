@@ -68,16 +68,12 @@ main {
     justify-content: flex-start;
 }
 
-.phone, .email {
-    margin-right: 8%;
-}
-
 .content-bottom {
     width: 40%;
 }
 
 .contact-information-left {
-    height: 82.56px;
+    height: 90px;
     display: flex;
     justify-content: flex-end;
 }
