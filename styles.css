@@ -7,17 +7,33 @@ header {
 
 body {
     margin: 0px;
+    padding: 32px;
     background-color: #101426;
     font-family: open-sans, sans-serif;
     color: #8F9BB3;
 }
 
-p {
-    margin: 0;
+main {
+    display: block;
+    padding: 2;
 }
 
-h3 {
-    margin: 0;
+span {
+    color: #FFAA00;
+}
+
+figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul {
+    padding-left: 8px;
+    margin-top: 0;
+}
+
+footer {
+    padding-top: 32px;
 }
 
 .avatar-container {
@@ -26,10 +42,6 @@ h3 {
     display: flex;
     align-items: flex-end;
     padding-bottom: -16px;
-}
-
-span {
-    color: #FFAA00;
 }
 
 .avatar {
@@ -50,24 +62,9 @@ span {
     margin-bottom: auto;
 }
 
-main {
-    display: block;
-    padding: 2%;
-}
-
-.contacts {
+.contact-information {
     display: flex;
-    align-items: baseline;
-    justify-content: flex-start;
-    height: 90px;
-}
-
-.content-bottom {
-    width: 40%;
-}
-
-footer {
-    padding-top: 32px;
+    flex-direction: column;
 }
 
 .footer-link {
@@ -105,10 +102,7 @@ footer {
     align-items: center;
 }
 
-ul {
-    padding-left: 8px;
-    margin-top: 0;
-}
+
 
 #video_itself {
     max-width: 1920px;
@@ -185,74 +179,15 @@ input[type=range]::-webkit-slider-thumb {
     padding: 0%;
 }
 
-@media (max-width:1270px) {
+/* @media (max-width:1270px) {
     body {
         background-color: red;
     }
     .content-left {
         width: 20%;
-        /* padding-left: 4%; */
     }
     .content-right {
         width: 80%;
         padding-left: 4%;
     }
-}
-
-@media (max-width:1100px) {
-    body {
-        background-color: green;
-    }
-    .content-left {
-        width: 30%;
-    }
-    .content-right {
-        width: 70%;
-        padding-left: 4%;
-    }
-    .code-left {
-        display: flex;
-        justify-content: flex-end;
-        height: 400px;
-    }
-}
-
-@media (max-width:865px) {
-    body {
-        background-color: yellow;
-    }
-    h1, h2 {
-        margin: 0;
-        font-size: 18px;
-    }
-    main {
-        display: block;
-    }
-    .content-left {
-        width: 100%;
-    }
-    .content-right {
-        width: 100%;
-        padding-left: 4%;
-    }
-    .code-left {
-        display: flex;
-        justify-content: flex-end;
-        height: 400px;
-    }
-    .avatar {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        border: 2px solid;
-        background-repeat: no-repeat;
-        background-size: contain;
-        object-fit: cover;
-        margin-left: auto;
-        margin-bottom: -16px;
-    }
-    figure {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}
+} */
