@@ -44,9 +44,9 @@ ul {
 
 a:visited {
     color: #FFAA00;
-} 
+}
 
- a:hover {
+a:hover {
     color: #FFAA00;
 }
 
@@ -128,12 +128,10 @@ footer {
 }
 
 #video_itself {
-    max-width: 1920px;
     height: auto;
 }
 
 .video_controls {
-    max-width: 1920px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -161,7 +159,6 @@ button {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    max-width: 1920px;
 }
 
 input[type=range] {
@@ -191,11 +188,11 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .volume {
-    width: 15%;
+    width: 10%;
 }
 
 .progress_bar {
-    width: 65%;
+    width: 85%;
 }
 
 .MyClass body {
@@ -245,9 +242,9 @@ input[type=range]::-webkit-slider-thumb {
         padding: 6px;
     }
     .avatar {
-        width: 90px;
+        width: 60px;
         height: 60px;
-        border-radius: 800px;
+        border-radius: 50%;
         border: 2px solid;
     }
     h1, h2 {
