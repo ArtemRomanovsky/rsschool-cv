@@ -6,7 +6,7 @@ header {
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #101426;
+    background-color: #1b2241;
     font-family: open-sans, sans-serif;
     color: #8F9BB3;
 }
@@ -209,7 +209,7 @@ input[type=range]::-webkit-slider-thumb {
     list-style: none;
 }
 
-@media all and (max-width:790px) {
+@media all and (max-width:870px) {
     .avatar {
         width: 150px;
         height: 150px;
