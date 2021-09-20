@@ -27,8 +27,8 @@ figure {
 }
 
 .humburger-icon {
-    width: 16px;
-    height: 16px;
+    width: 26px;
+    height: 26px;
     background-color: #FFAA00;
 }
 
@@ -37,12 +37,16 @@ ul {
     margin-top: 0;
 }
 
-a:link {
+.link-grey {
     color: #8F9BB3;
     text-decoration: none;
 }
 
-a:visited, a:hover {
+a:visited {
+    color: #FFAA00;
+} 
+
+ a:hover {
     color: #FFAA00;
 }
 
@@ -238,12 +242,12 @@ input[type=range]::-webkit-slider-thumb {
 
 @media all and (max-width:490px) {
     body {
-        padding: 16px;
+        padding: 6px;
     }
     .avatar {
-        width: auto;
-        height: 80px;
-        border-radius: 50%;
+        width: 90px;
+        height: 60px;
+        border-radius: 800px;
         border: 2px solid;
     }
     h1, h2 {
