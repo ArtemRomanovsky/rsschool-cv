@@ -6,7 +6,19 @@ const range = document.querySelector('.volume_tumbler');
 const tumblerVolume = document.querySelector('.volume_tumbler');
 const buttonFullscreen = document.querySelector('.fullscreen');
 const soundButton = document.querySelector('.sound');
+const toggleButton = document.getElementById('menu-toggle');
+const navMenu = document.getElementById('header-menu');
 // functions
+
+toggleButton.addEventListener('click', toggleMenu);
+
+function toggleMenu() {
+    navMenu.classList.toggle('header-menu-show');
+}
+
+navMenu.addEventListener('click', toggleMenu);
+
+
 function playPause() {
     if (video.paused) {
         video.play();
@@ -73,7 +85,7 @@ function muteVideo() {
 }
 
 function updateVolume(e) {
-    video.volume = parseFloat(tumblerVolume.value); 
+    video.volume = parseFloat(tumblerVolume.value);
 }
 
 video.addEventListener('click', playPause);
@@ -102,3 +114,13 @@ function changeClass() {
 }
 
 video.addEventListener('playing', function () { setInterval(checkProgress, 16) });
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});

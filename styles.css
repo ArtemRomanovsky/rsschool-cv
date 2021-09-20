@@ -1,13 +1,11 @@
 header {
-    height: 20%;
-    display: flex;
-    padding-top: 6%;
     margin-bottom: 32px;
+    padding-right: 12px;
 }
 
 body {
     margin: 0px;
-    padding: 32px;
+    padding: 0px;
     background-color: #101426;
     font-family: open-sans, sans-serif;
     color: #8F9BB3;
@@ -15,7 +13,8 @@ body {
 
 main {
     display: block;
-    padding: 2;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 span {
@@ -27,9 +26,24 @@ figure {
     margin-right: 0;
 }
 
+.humburger-icon {
+    width: 16px;
+    height: 16px;
+    background-color: #FFAA00;
+}
+
 ul {
     padding-left: 8px;
     margin-top: 0;
+}
+
+a:link {
+    color: #8F9BB3;
+    text-decoration: none;
+}
+
+a:visited, a:hover {
+    color: #FFAA00;
 }
 
 footer {
@@ -37,11 +51,9 @@ footer {
 }
 
 .avatar-container {
-    width: 40%;
-    height: 100%;
     display: flex;
-    align-items: flex-end;
-    padding-bottom: -16px;
+    justify-content: center;
+    align-items: center;
 }
 
 .avatar {
@@ -52,8 +64,17 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     object-fit: cover;
+}
+
+.header-burger {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-toggle {
+    display: none;
     margin-left: auto;
-    margin-bottom: -16px;
+    max-width: none;
 }
 
 .personal-info {
@@ -101,8 +122,6 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
-
 
 #video_itself {
     max-width: 1920px;
@@ -179,15 +198,68 @@ input[type=range]::-webkit-slider-thumb {
     padding: 0%;
 }
 
-/* @media (max-width:1270px) {
+.header-list {
+    display: flex;
+}
+
+.header-list li {
+    padding: 16px;
+    list-style: none;
+}
+
+@media all and (max-width:790px) {
+    .avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 6px solid;
+    }
+    .header-menu {
+        display: none;
+    }
+    .header-menu-show {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        overflow-y: auto;
+    }
+    .menu-toggle {
+        display: inline-block;
+    }
+    .header-list {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:490px) {
     body {
-        background-color: red;
+        padding: 16px;
     }
-    .content-left {
-        width: 20%;
+    .avatar {
+        width: auto;
+        height: 80px;
+        border-radius: 50%;
+        border: 2px solid;
     }
-    .content-right {
-        width: 80%;
-        padding-left: 4%;
+    h1, h2 {
+        font-size: 16px;
     }
-} */
+    .video_controls {
+        height: 14px;
+    }
+    button {
+        font-size: 14px;
+    }
+    input[type=range]::-webkit-slider-runnable-track {
+        height: 14px;
+    }
+    input[type=range]::-webkit-slider-thumb {
+        height: 14px;
+        width: 14px;
+    }
+}

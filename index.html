@@ -5,39 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Artem Romanovsky CV</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width">
 </head>
-
 <body>
     <header>
-        <div class="avatar-container">
-            <img src="./pics/avatar.jpg" alt="artem-romanovsky-avatar" class="avatar">
-        </div>
-        <div class="personal-info">
-            <h1>Artem Romanovsky</h1>
-            <h2><span>Junior Front-End Developer</span></h2>
+        <div class="header-burger">
+            <button class="menu-toggle" id="menu-toggle">
+                <img src="./pics/Hamburger_icon.svg.svg" alt="icon humburger" class="humburger-icon">
+            </button>
+            <nav class="header-menu" id="header-menu">
+                <ul class="header-list">
+                    <li>
+                        <a href="#anchor-contact-information">Contact information</a>
+                    </li>
+                    <li>
+                        <a href="#anchor-general-information">General information</a>
+                    </li>
+                    <li>
+                        <a href="#anchor-skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#anchor-tools">Tools</a>
+                    </li>
+                    <li>
+                        <a href="#anchor-code">Code example</a>
+                    </li>
+                    <li>
+                        <a href="#anchor-languages">Languages</a>
+                    </li>
+                    <li>
+                        <a href="#anchor-my-projects">My projects</a>
+                    </li>
+                    <li>
+                        <a href="#anchor-video">Video</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
-        <div class="contact-information">
-            <h3><span>Contact information</span></h3>
+        <section class="avatar-container">
+            <img src="./pics/avatar.jpg" alt="artem romanovsky" class="avatar">
+            <div class="personal-info">
+                <h1>Artem Romanovsky</h1>
+                <h2><span>Junior Front-End Developer</span></h2>
+            </div>
+        </section>
+        <section class="contact-information">
+            <h3><span><a id="anchor-contact-information">Contact information</a></span></h3>
             <ul>
                 <li>Phone: +375291507953</li>
                 <li>Email <a href="mailto: cheferin1@gmail.com">cheferin1@gmail.com</a></li>
             </ul>
-        </div>
-        <div class="general-information">
-            <h3><span>General information</span></h3>
+        </section>
+        <section class="general-information">
+            <h3><span><a id="anchor-general-information">General information</a></span></h3>
             <p>Glad to see you on my page, I’m Artem, 29 y.o. from Minsk, Belarus.
                 I’m currently working as a support/customer success manager.
                 I started entering the world of FE and tech two years ago, thanks to my previous company - Akveo.
                 Literally, can’t add anything except skills and interests:</p>
-        </div>
-        <div class="skills">
-            <h3><span>Skills</span></h3>
+        </section>
+        <section class="skills">
+            <h3><span><a id="anchor-skills">Skills</a></span></h3>
             <ul>
                 <li>HTML5</li>
                 <li>CSS</li>
@@ -45,39 +78,43 @@
                 <li>Git</li>
                 <li>GitHub</li>
             </ul>
-        </div>
-        <div class="tools">
-            <h3><span>Tools</span></h3>
+        </section>
+        <section class="tools">
+            <h3><span><a id="anchor-tools">Tools</a></span></h3>
             <p>Familiar with Hubspot, Shopify, GitHub, VSC, MS Office, Google Sheets (Docs), Notion,
                 Confluence, Slack, YouTrack, Git, Crisp, Hotjar, Amplitude, Sentry, Discord.
             </p>
-        </div>
-        <div class="code">
-            <h3><span>Code example</span></h3>
+        </section>
+        <section class="code">
+            <h3><span><a id="anchor-code">Code example</a></span></h3>
             <script src="https://gist.github.com/ArtemRomanovsky/64889e9e5523507d8a45cbd6f6e71754.js"></script>
-        </div>
-        <div class="languages">
-            <h3><span>Languages</span></h3>
+        </section>
+        <section class="languages">
+            <h3><span><a id="anchor-languages">Languages</a></span></h3>
             <ul>
                 <li>Russian: Native</li>
                 <li>English: B2-C1</li>
                 <li>Polish: A1</li>
             </ul>
-        </div>
-    </main>
-    <figure>
-        <div class="video_player">
-            <video id="video_itself" src="video/video.mp4"></video>
-            <div class="video_controls">
-                <button class="play_pause">►</button>
-                <input class="progress_bar" type="range" step="0.1" min="0" max="100" value="0">
-                <button class="sound">🔊</button>
-                <input class="volume_tumbler" type="range" step="0.01" min="0" max="1" value="1">
-                <button class="fullscreen">🔳</button>
+        </section>
+        <section class="my-projects">
+            <h3><span><a id="anchor-my-projects">My projects</a></span></h3>
+            <p>To be created :)</p>
+        </section>
+        <figure>
+            <h3><span><a id="anchor-video">Video</a></span></h3>
+            <div class="video_player">
+                <video id="video_itself" src="video/video.mp4"></video>
+                <div class="video_controls">
+                    <button class="play_pause">►</button>
+                    <input class="progress_bar" type="range" step="0.1" min="0" max="100" value="0">
+                    <button class="sound">🔊</button>
+                    <input class="volume_tumbler" type="range" step="0.01" min="0" max="1" value="1">
+                    <button class="fullscreen">🔳</button>
+                </div>
             </div>
-        </div>
-    </figure>
-
+        </figure>
+    </main>
     <footer>
         <div class="block-links-footer">
             <a href="https://www.linkedin.com/in/artem-romanovsky-9b257a185/">
