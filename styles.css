@@ -1,0 +1,269 @@
+header {
+    margin-bottom: 32px;
+    padding-right: 12px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1b2241;
+    font-family: open-sans, sans-serif;
+    color: #8F9BB3;
+}
+
+main {
+    display: block;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+span {
+    color: #FFAA00;
+}
+
+figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.humburger-icon {
+    width: 26px;
+    height: 26px;
+    background-color: #FFAA00;
+}
+
+ul {
+    padding-left: 8px;
+    margin-top: 0;
+}
+
+.link-grey {
+    color: #8F9BB3;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFAA00;
+}
+
+a:hover {
+    color: #FFAA00;
+}
+
+footer {
+    padding-top: 32px;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+}
+
+.header-burger {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-toggle {
+    display: none;
+    margin-left: auto;
+    max-width: none;
+    margin-top: 16px;
+}
+
+.personal-info {
+    padding-left: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link {
+    width: 80px;
+    height: 50px;
+    margin-right: 8px;
+}
+
+.rsschool {
+    background: url(./pics/download.svg) no-repeat;
+    background-size: contain;
+}
+
+.linkedin {
+    background: url(./pics/linkedinNew.svg) no-repeat;
+    background-size: contain;
+}
+
+.github {
+    background: url(./pics/github-icon.svg) no-repeat;
+    background-size: contain;
+}
+
+.block-links-footer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 24px;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video_itself {
+    height: auto;
+}
+
+.video_controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 24px;
+}
+
+button {
+    max-width: 30px;
+    border: none;
+    padding: 0;
+    display: flex;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    color: #0a89f8;
+    text-align: center;
+    line-height: 1;
+    font-size: 24px;
+}
+
+.video_player {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 12px;
+    cursor: pointer;
+    background: #0a89f8;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 12px;
+    width: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    background-color: whitesmoke;
+    margin-top: -1.2px;
+}
+
+.video {
+    display: block;
+}
+
+.volume {
+    width: 10%;
+}
+
+.progress_bar {
+    width: 85%;
+}
+
+.MyClass body {
+    padding: 0%;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-list li {
+    padding: 16px;
+    list-style: none;
+}
+
+@media all and (max-width:870px) {
+    .avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 6px solid;
+    }
+    .header-menu {
+        display: none;
+    }
+    .header-menu-show {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        overflow-y: auto;
+    }
+    .menu-toggle {
+        display: inline-block;
+        margin-top: 16px;
+        
+    }
+    .header-list {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:490px) {
+    body {
+        padding: 6px;
+    }
+    .avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid;
+    }
+    h1, h2 {
+        font-size: 16px;
+    }
+    .video_controls {
+        height: 14px;
+    }
+    button {
+        font-size: 14px;
+    }
+    input[type=range]::-webkit-slider-runnable-track {
+        height: 14px;
+    }
+    input[type=range]::-webkit-slider-thumb {
+        height: 14px;
+        width: 14px;
+    }
+}
