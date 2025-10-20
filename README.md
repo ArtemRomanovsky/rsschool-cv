@@ -1,2 +1,3 @@
-https://artemromanovsky.github.io/rsschool-cv/
-https://artemromanovsky.github.io/rsschool-cv/cv
+https://artemromanovsky.github.io/rsschool-cv/1
+
+https://artemromanovsky.github.io/rsschool-cv/1cv
